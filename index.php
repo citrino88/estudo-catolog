@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/media-query.css">
 </head>
 <body>
+    <main>
     <h1>Mobile First</h1>
-</body>
+    </main>
+    </body>
 </html>
