@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+:root {
+    --cor-titulo: #65451f;
+    --cor-descricao: #65451f;
+    --cor-botao-escuro: #65451f;
+    --cor-icones: #65451f;    
+    --cor-topo-rodape: #cdc2ae;
+    --cor-faixa: #765827;
+    --cor-botao: #9c8250;
+    --cor-preto: #000;
+    --cor-branco: #fff;    
+}
