@@ -15,9 +15,11 @@
     
 <header id="topo" class="border-bottom sticky-top">
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Cake</a>
+    <a class="navbar-brand" href="index.php">
+        <img src="img/logo.webp" width="50px" alt="">Cake
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,10 +34,10 @@
             Categorias
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Doces</a></li>
-            <li><a class="dropdown-item" href="#">Salgados</a></li>
-            <li><a class="dropdown-item" href="#">Pães</a></li>
-            <li><a class="dropdown-item" href="#">Bolos</a></li>
+            <li><a class="dropdown-item" href="doces.php">Doces</a></li>
+            <li><a class="dropdown-item" href="salgados.php">Salgados</a></li>
+            <li><a class="dropdown-item" href="paes.php">Pães</a></li>
+            <li><a class="dropdown-item" href="bolos.php">Bolos</a></li>
             <li><hr class="dropdown-divider"></li>
             <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
           </ul>
@@ -49,7 +51,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        <button class="btn btn-outline" type="submit">Buscar</button>
       </form>
     </div>
   </div>
