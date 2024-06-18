@@ -23,6 +23,32 @@ require "cabecalho.php";
   <button class="btn btn-primary" type="button">Bolos Caseiros</button>
 </div>
 
+<hr>
+<div class="bg p-2 text-white bg-opacity-75">This is 75% opacity success background
+<br>
+Aqui é pra colocar uma imagem banner
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col card" style="width: 18rem;">
+  <img src="img/bolo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="col card" style="width: 18rem;">
+  <img src="img/bolo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bolo de Creme com Frutas</h5>
+    <p class="card-text">Bolo de Creme com Frutas, massa branca e cobertura de creme de nata.</p>
+    <a href="#" class="btn btn-primary">Eu quero</a>
+  </div>
+</div>
+</div>
 
     <?php
     require_once "rodape.php";
