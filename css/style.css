@@ -35,3 +35,45 @@
 .btn-outline:hover{
     border-color: var(--cor-botao-escuro);
 }
+
+/* pagina bolos.php botoes categorias */
+.caixa {
+    width: 200px; 
+height: 50px; 
+border: 2px solid #ccc;
+text-align: center;
+line-height: 50px; 
+cursor: pointer;
+font-family: Arial, sans-serif;
+font-size: 18px;
+text-decoration: none;
+display: block;
+color: #333;
+background-color: #C8AE7D; 
+border-radius: 15px;
+font-weight: bold;
+}
+.caixa:hover {
+background-color: #e0e0e0;
+}
+
+.caixa:hover {
+    background-color: #e0e0e0; 
+}
+.categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-categorias .btn{
+    color: var(--cor-preto);
+    border-color: var(--cor-botao-escuro);
+    font-weight: 650;
+}
+.btn:hover{
+    border-color: var(--cor-botao-escuro);
+    background-color: var(--cor-topo-rodape);
+}
+/* pagina bolos.php botoes categorias */    
