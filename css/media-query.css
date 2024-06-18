@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    background-color: black url(/img/a1.jpg) no-repeat;
+    background-color: black url(../img/a1.jpg) no-repeat;
 }
 
 main{
