@@ -75,6 +75,7 @@ background-color: #e0e0e0;
 .btn:hover{
     border-color: var(--cor-botao-escuro);
     background-color: var(--cor-topo-rodape);
+    color: var(--cor-preto)
 }
 /* pagina bolos.php botoes categorias */    
 
