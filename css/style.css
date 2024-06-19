@@ -81,3 +81,7 @@ background-color: #e0e0e0;
 .bg{
     background-color: var(--cor-botao-escuro);
 }
+
+.card img{
+    height: 50%;
+}

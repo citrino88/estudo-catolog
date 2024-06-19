@@ -15,7 +15,7 @@
     
 <header id="topo" class="border-bottom sticky-top">
 
-<nav class="navbar navbar-expand-lg bg">
+<nav class="shadow navbar navbar-expand-lg bg">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php">
         <img src="img/logo.webp" width="50px" alt="">Cake

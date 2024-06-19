@@ -32,15 +32,15 @@ Aqui é pra colocar uma imagem banner
 <hr>
 
 <div class="row p-2">
-<div class="col card mx-2" style="width: 18rem;">
+<div class="shadow col card mx-2" style="width: 18rem;">
   <img src="img/bolo-chocolate-maracuja.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Bolo de Chocolate e Maracujá</h5>
+    <p class="card-text">Bolo de Chocolate e Maracujá.</p>
+    <a href="#" class="btn btn-primary">Adicionar</a>
   </div>
 </div>
-<div class="col card mx-2" style="width: 18rem;">
+<div class="shadow col card mx-2" style="width: 18rem;">
   <img src="img/bolo.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Bolo de Creme com Frutas</h5>
