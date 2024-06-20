@@ -79,6 +79,7 @@ background-color: #e0e0e0;
 }
 /* pagina bolos.php botoes categorias */    
 
+/* pagina produtos */
 .bg{
     background-color: var(--cor-botao-escuro);
 }
@@ -86,3 +87,8 @@ background-color: #e0e0e0;
 .card img{
     height: 50%;
 }
+
+select{
+    margin-bottom: 10px;
+}
+/* pagina produtos */

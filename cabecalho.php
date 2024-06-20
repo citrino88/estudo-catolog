@@ -34,6 +34,7 @@
             Categorias
           </a>
           <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="produto.php">Página Produto</a></li>
             <li><a class="dropdown-item" href="doces.php">Doces</a></li>
             <li><a class="dropdown-item" href="salgados.php">Salgados</a></li>
             <li><a class="dropdown-item" href="paes.php">Pães</a></li>
