@@ -84,12 +84,10 @@ background-color: #e0e0e0;
     background-color: var(--cor-botao-escuro);
 }
 
-.card img{
-    height: 50%;
-}
 
 /* este a se refere ao btn, lembrar de trocar por button */
 .card-body a{
     margin-top: 10px;
 }
 /* pagina produtos */
+

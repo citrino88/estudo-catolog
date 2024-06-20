@@ -24,7 +24,7 @@ require "cabecalho.php";
 
 <h3>PRODUTOS RELACIONADOS</h3>
 <div class="row p-2">
-<div class="shadow col card mx-2" style="width: 18rem;">
+<div class="shadow col card mx-2 h-50" style="width: 18rem;">
   <img src="img/bolo-chocolate-maracuja.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Bolo de Chocolate e Maracujá</h5>
@@ -32,7 +32,7 @@ require "cabecalho.php";
     <a href="#" class="btn">Adicionar</a>
   </div>
 </div>
-<div class="shadow col card mx-2" style="width: 18rem;">
+<div class="shadow col card mx-2 h-50" style="width: 18rem;">
   <img src="img/bolo.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Bolo de Creme com Frutas</h5>
