@@ -88,7 +88,8 @@ background-color: #e0e0e0;
     height: 50%;
 }
 
-select{
-    margin-bottom: 10px;
+/* este a se refere ao btn, lembrar de trocar por button */
+.card-body a{
+    margin-top: 10px;
 }
 /* pagina produtos */

@@ -10,8 +10,8 @@ require "cabecalho.php";
     <h5 class="card-title">Bolo de Chocolate e Maracujá</h5>
     <hr>
     <p class="card-text">Bolo de Chocolate e Maracujá.</p>
-       <label for="assunto">Tamanho:</label>
-          <select name="assunto" id="assunto">
+       <label for="tamanho">Tamanho:</label>
+          <select name="tamanho" id="tamanho">
                <option value=""></option>
                <option>15 cm</option>
                <option>22 cm</option>
