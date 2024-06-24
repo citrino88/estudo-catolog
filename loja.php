@@ -40,7 +40,7 @@
           <div class="movie-product">
             <strong class="product-title">Poster 1</strong>
             <!-- <br> -->
-            <img src="/images/poster1.png" alt="Poster 1" class="product-image">
+            <img src="img/biscoito-mesclado.jpg" alt="Poster 1" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$29,99</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -50,7 +50,7 @@
           <div class="movie-product">
             <strong class="product-title">Poster 2</strong>
             <!-- <br> -->
-            <img src="/images/poster2.png" alt="Poster 2" class="product-image">
+            <img src="img/bolo-choc-flores.jpg" alt="Poster 2" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$39,99</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -60,7 +60,7 @@
           <div class="movie-product">
             <strong class="product-title">Poster 3</strong>
             <!-- <br> -->
-            <img src="/images/poster3.png" alt="Poster 3" class="product-image">
+            <img src="img/bolo-choc-morango-beijinho.jpg" alt="Poster 3" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$19,99</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -70,7 +70,7 @@
           <div class="movie-product">
             <strong class="product-title">Poster 4</strong>
             <!-- <br> -->
-            <img src="/images/poster4.png" alt="Poster 4" class="product-image">
+            <img src="img/bolo-chocolate-maracuja.jpg" alt="Poster 4" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$79,99</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -86,7 +86,7 @@
           <div class="movie-product">
             <strong class="product-title">Camiseta</strong>
             <!-- <br> -->
-            <img src="images/produto1.png" alt="Camiseta" class="product-image">
+            <img src="img/bolo-chocolate.jpg" alt="Camiseta" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$39,90</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -96,7 +96,7 @@
           <div class="movie-product">
             <strong class="product-title">Miniatura</strong>
             <!-- <br> -->
-            <img src="images/produto2.png" alt="Miniatura" class="product-image">
+            <img src="img/bolo-de-cenoura.jpg" alt="Miniatura" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$69,90</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
