@@ -1,44 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+require "cabecalho.php";
+?>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-
-    <script src="js/loja.js" async></script>
-
-    <title>Homem Ferro | Loja</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-nav container">
-        <ul class="header-list-container list-container">
-          <li class="nav-item">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="loja.html">Loja</a>
-          </li>
-          <li class="nav-item">
-            <a href="sobre.html">Sobre</a>
-          </li>
-        </ul>
-      </nav>
-      <hr>
-      <h1 class="movie-title-large movie-title">Homem de Ferro</h1>
-      <!-- Adicionar imagem de fundo no CSS -->
-    </header>
-
-    <main class="main-section">
+    <!-- <main class="main-section"> -->
       <section class="container normal-section">
-        <h2 class="section-title">Posters</h2>
+        <h2 class="section-title">Produtos</h2>
 
         <div class="products-container">
           <div class="movie-product">
-            <strong class="product-title">Poster 1</strong>
+            <strong class="product-title">Produto 1</strong>
             <!-- <br> -->
             <img src="img/biscoito-mesclado.jpg" alt="Poster 1" class="product-image">
             <div class="product-price-container">
@@ -48,7 +18,7 @@
           </div>
 
           <div class="movie-product">
-            <strong class="product-title">Poster 2</strong>
+            <strong class="product-title">Produto 2</strong>
             <!-- <br> -->
             <img src="img/bolo-choc-flores.jpg" alt="Poster 2" class="product-image">
             <div class="product-price-container">
@@ -58,7 +28,7 @@
           </div>
   
           <div class="movie-product">
-            <strong class="product-title">Poster 3</strong>
+            <strong class="product-title">Produto 3</strong>
             <!-- <br> -->
             <img src="img/bolo-choc-morango-beijinho.jpg" alt="Poster 3" class="product-image">
             <div class="product-price-container">
@@ -68,7 +38,7 @@
           </div>
   
           <div class="movie-product">
-            <strong class="product-title">Poster 4</strong>
+            <strong class="product-title">Produto 4</strong>
             <!-- <br> -->
             <img src="img/bolo-chocolate-maracuja.jpg" alt="Poster 4" class="product-image">
             <div class="product-price-container">
@@ -80,13 +50,13 @@
       </section>
 
       <section class="container normal-section">
-        <h2 class="section-title">Produtos</h2>
+        <h2 class="section-title">Outros Produtos</h2>
 
         <div class="products-container">
           <div class="movie-product">
-            <strong class="product-title">Camiseta</strong>
+            <strong class="product-title">Produto 5</strong>
             <!-- <br> -->
-            <img src="img/bolo-chocolate.jpg" alt="Camiseta" class="product-image">
+            <img src="img/bolo-chocolate.jpg" alt="Produto" class="product-image">
             <div class="product-price-container">
               <span class="product-price">R$39,90</span>
               <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
@@ -94,7 +64,7 @@
           </div>
 
           <div class="movie-product">
-            <strong class="product-title">Miniatura</strong>
+            <strong class="product-title">Produto 6</strong>
             <!-- <br> -->
             <img src="img/bolo-de-cenoura.jpg" alt="Miniatura" class="product-image">
             <div class="product-price-container">
@@ -160,27 +130,49 @@
       </section>
     </main>
 
-    <footer class="main-footer">
-      <div class="container main-footer-container">
-        <h3 class="movie-title-medium movie-title">Homem de Ferro</h3>
-        <ul class="list-container">
-          <li class="footer-item">
-            <a href="https://pt-br.facebook.com/" target="_blank">
-              <img src="images/icon-facebook.svg" alt="Facebook logo">
-            </a>
-          </li>
-          <li class="footer-item">
-            <a href="https://open.spotify.com/" target="_blank">
-              <img src="images/icon-spotify.svg" alt="Spotify logo">
-            </a>
-          </li>
-          <li class="footer-item">
-            <a href="https://www.youtube.com/" target="_blank">
-              <img src="images/icon-youtube.svg" alt="Youtube logo">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-</html>
+    <!-- 
+    <script>
+        function gotowhatsapp() {
+
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var service = document.getElementById("service").value;
+
+            var url = "https://wa.me/918789529215?text="
+                + "Name: " + name + "%0a"
+                + "Phone: " + phone + "%0a"
+                + "Email: " + email + "%0a"
+                + "Service: " + service;
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
+
+    ou
+    
+    btn onclick="sendTOWhatsapp()" 
+
+    <script>
+        function sendToWhatsapp() {
+            let number = document.getElementById("phone").value; moi
+
+            var name = document.getElementById("name").value;
+            
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            var url = "https://wa.me/" + number + "?text="
+                + "Name: " + name + "%0a"
+                + "Phone: " + phone + "%0a"
+                + "Email: " + email + "%0a"
+                + "Message: " + message + "%0a%0a";
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
+    -->
+
+    <?php
+require_once "rodape.php";
+?>
