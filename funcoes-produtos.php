@@ -28,7 +28,7 @@ function upload($arquivo){
     $temporario = $arquivo['tmp_name'];
 
     /* Definindo da pasta de destino + nome do arquivo da imagem. O pontinho é a concatenação feita via php */
-    $destino = "../imagens/".$nome;
+    $destino = "../img/".$nome;
 
     /* Movendo o arquivo/imagem da área temporária para a pasta de destino indicada (imagens) */
     move_uploaded_file($temporario, $destino);
@@ -141,7 +141,7 @@ function lerTodasNoticias($conexao){
 
 // noticia.php
 function lerNoticiaCompleta($conexao, $id){
-    $sql = " SELECT * FROM produtos WHERE id >=1;"
+    $sql = " SELECT * FROM produtos WHERE id >=1";
         
     $resultado = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));  
     

@@ -8,7 +8,7 @@ if(isset($_POST['inserir'])){
 	// $resumo = $_POST['resumo']; TIREI ISSO AQUI
 
 	/* Obtendo o id do usuário que está logado e inserindo a notícia. Portanto, a notícia será associada ao usuário devido ao uso de chave estrangeira e relacionamento no banco. */
-	$usuarioId = $_SESSION['id'];
+	// $usuarioId = $_SESSION['id']; NÃO VAI TER
 
 	/* Capturando dados do arquivo enviado (imagens, pdf, .doc, etc...); pega os dados e transforma num Array */
 	$imagem = $_FILES['imagem'];

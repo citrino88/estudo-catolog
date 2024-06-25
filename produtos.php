@@ -20,5 +20,5 @@ $dadosNoticia = lerNoticiaCompleta($conexao);
 </div>        
 
 <?php 
-require_once "inc/rodape.php";
+require_once "rodape.php";
 ?>
