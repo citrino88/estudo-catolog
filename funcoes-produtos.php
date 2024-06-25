@@ -141,15 +141,7 @@ function lerTodasNoticias($conexao){
 
 // noticia.php
 function lerNoticiaCompleta($conexao, $id){
-    $sql = "SELECT noticias.id, 
-                noticias.titulo, 
-                noticias.data,
-                noticias.imagem, 
-                noticias.texto,
-                usuarios.nome 
-                FROM noticias JOIN usuarios -- Aqui ocorre a junção/relação
-                ON noticias.usuario_id = usuarios.id -- Aqui onde relaciona a FK com a PK
-                WHERE noticias.id = $id";
+    $sql = " SELECT * FROM produtos WHERE id >=1;"
         
     $resultado = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));  
     

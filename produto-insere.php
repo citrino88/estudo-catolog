@@ -5,7 +5,7 @@ require_once "funcoes-produtos.php";
 if(isset($_POST['inserir'])){
 	$titulo = $_POST['titulo'];
 	$texto = $_POST['texto'];
-	$resumo = $_POST['resumo'];
+	// $resumo = $_POST['resumo']; TIREI ISSO AQUI
 
 	/* Obtendo o id do usuário que está logado e inserindo a notícia. Portanto, a notícia será associada ao usuário devido ao uso de chave estrangeira e relacionamento no banco. */
 	$usuarioId = $_SESSION['id'];
@@ -46,11 +46,26 @@ if(isset($_POST['inserir'])){
                 <label class="form-label" for="texto">Descrição do Produto:</label>
                 <textarea class="form-control" required name="texto" id="texto" cols="50" rows="6"></textarea>
 			</div>
-
-			<div class="mb-3">
+			<!-- TIREI ISSO DAQUI -->
+			<!-- <div class="mb-3">
                 <label class="form-label" for="resumo">Outras informações:</label>
                 <span id="maximo" class="badge bg-danger">0</span>
                 <textarea class="form-control" required name="resumo" id="resumo" cols="50" rows="2" maxlength="300"></textarea> 
+			</div> -->
+			<div class="mb-3">
+                <label class="form-label" for="preco">Preço:</label>
+                <input class="form-control" required type="decimal" id="preco" name="preco" >
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label" for="categoria">Categoria:</label>
+				<select class="form-select" name="categoria" id="categoria" required>
+					<option value=""></option>
+					<option value="paes">Paes</option>
+					<option value="doces">Doces</option>
+					<option value="salgados">Salgados</option>
+					<option value="bolos">Bolos</option>
+				</select>
 			</div>
 
 			<div class="mb-3">
