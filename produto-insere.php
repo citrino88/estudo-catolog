@@ -4,7 +4,9 @@ require_once "funcoes-produtos.php";
 
 if(isset($_POST['inserir'])){
 	$titulo = $_POST['titulo'];
-	$texto = $_POST['texto'];
+	$descricao = $_POST['texto'];
+	$preco = $_POST['preco'];
+	$categoria = $_POST['categoria'];
 	// $resumo = $_POST['resumo']; TIREI ISSO AQUI
 
 	/* Obtendo o id do usuário que está logado e inserindo a notícia. Portanto, a notícia será associada ao usuário devido ao uso de chave estrangeira e relacionamento no banco. */
@@ -17,7 +19,7 @@ if(isset($_POST['inserir'])){
 	upload($imagem);
 
 	/* Enviar dados para o banco de dados */
-	inserirNoticia($conexao, $titulo, $texto, $resumo, $imagem['name'], $usuarioId);
+	inserirNoticia($conexao, $titulo, $descricao, $preco, $imagem['name'], $categoria);
 	/* acima temos via post/form titulo, texto, resumo; Do usuario q inseiu imagem; da SESSION vem o usuarioId */
 
 	header("location:bolos.php");

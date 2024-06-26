@@ -34,11 +34,11 @@ function upload($arquivo){
     move_uploaded_file($temporario, $destino);
 }
 
-function inserirNoticia($conexao, $titulo, $texto, $resumo, $nomeImagem, $usuarioId){
+function inserirNoticia($conexao, $titulo, $descricao, $preco, $nomeImagem, $categoria){
 
-        $sql = "INSERT INTO noticias(
-            titulo, texto, resumo, imagem, usuario_id)
-            VALUES ('$titulo', '$texto', '$resumo', '$nomeImagem', $usuarioId)";
+        $sql = "INSERT INTO produtos(
+            titulo, descricao, preco, imagem, categoria)
+            VALUES ('$titulo', '$descricao', '$preco', '$nomeImagem', '$categoria')";
         
         mysqli_query($conexao, $sql) or die (mysqli_error($conexao));
 }
