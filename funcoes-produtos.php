@@ -33,7 +33,7 @@ function upload($arquivo){
     /* Movendo o arquivo/imagem da área temporária para a pasta de destino indicada (imagens) */
     move_uploaded_file($temporario, $destino);
 }
-
+// PRODUTO FUNCIONANDO INSERINDO
 function inserirNoticia($conexao, $titulo, $descricao, $preco, $nomeImagem, $categoria){
 
         $sql = "INSERT INTO produtos(
@@ -141,7 +141,7 @@ function lerTodasNoticias($conexao){
 
 // noticia.php
 function lerNoticiaCompleta($conexao, $id){
-    $sql = " SELECT * FROM produtos WHERE id >=1";
+    $sql = " SELECT * FROM produtos WHERE id = $id";
         
     $resultado = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));  
     
