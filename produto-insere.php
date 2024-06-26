@@ -56,7 +56,7 @@ if(isset($_POST['inserir'])){
 			</div> -->
 			<div class="mb-3">
                 <label class="form-label" for="preco">Preço:</label>
-                <input class="form-control" required type="decimal" id="preco" name="preco" >
+                <input class="form-control" required type="number" step="0.01" id="preco" name="preco" >
 			</div>
 
 			<div class="mb-3">

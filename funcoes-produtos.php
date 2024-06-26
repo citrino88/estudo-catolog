@@ -131,8 +131,9 @@ index, noticia, resultados */
 
 // index.php
 function lerTodasNoticias($conexao){
-    $sql = "SELECT titulo, imagem, resumo, id
-            FROM noticias ORDER BY data DESC";
+    $sql = "SELECT titulo, imagem, descricao, id
+            FROM produtos ";
+            //ORDER BY data DESC; quando tiver mais produtos
 
     $resultado = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));  
     
