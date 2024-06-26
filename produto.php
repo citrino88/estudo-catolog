@@ -9,7 +9,7 @@ $dadosProduto = lerNoticiaCompleta($conexao, $id);
   
     <div class="col text-center">
       <div >
-        <img src="img/<?=$dadosProduto['imagem']?>" class="img-fluid" style="width: 70%;" alt="...">
+        <img src="img/<?=$dadosProduto['imagem']?>" class="img-fluid" style="width: 100%;" alt="...">
       </div>
     </div>
     <div class="col wrap">
