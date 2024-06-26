@@ -19,6 +19,7 @@ $listaDeNoticias = lerTodasNoticias($conexao);
                     <div class="card-body">
                         <h3 class="fs-4 card-title"><?=$noticia['titulo']?></h3>
                         <p class="card-text"><?=$noticia['descricao']?></p>
+                        <p class="card-text"><?=$noticia['descricao']?></p>
                     </div>
                 </a>
             </article>
